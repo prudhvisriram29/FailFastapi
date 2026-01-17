@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 # CONFIGURE GROQ
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 st.set_page_config(page_title="FailFast AI", layout="centered")
 
@@ -64,3 +64,4 @@ Assumptions: {assumptions}
     
     st.subheader("Reality Check Report")
     st.write(result)
+
